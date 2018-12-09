@@ -18,8 +18,13 @@ export class TabsPage {
 
   cvRoot: any = 'CvPage';
   activitiesRoot: any = 'ActivitiesPage';
-  projectRoot: any = 'ProjectPage';
+  //projectRoot: any = 'ProjectPage';// I don't need this page anymore
+  profileRoot: any = 'ProfilePage';// added personal profile page
   contactRoot: any = 'ContactPage';
+  technicalskillsRoot: any = 'TechnicalskillsPage';
+  softskillsRoot: any = 'SoftskillsPage';
+  personalprojectRoot: any = 'PersonalprojectPage';
+  teamprojectRoot: any = 'TeampProjectPage';
   myIndex: number;
 
   constructor(navParams: NavParams) {

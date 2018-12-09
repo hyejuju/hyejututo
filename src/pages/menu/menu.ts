@@ -6,6 +6,11 @@ import { CvPage } from './../cv/cv';//importing pages that I made
 import { ActivitiesPage } from './../activities/activities';//importing pages that I made
 import { ProjectPage } from './../project/project';//importing pages that I made
 import { ContactPage } from './../contact/contact';//importing pages that I made
+import { TechnicalSkillsPage } from './../technical-skills/technical-skills';//importing pages that I made
+import { SoftSkillsPage } from './../soft-skills/soft-skills';//importing pages that I made
+import { PersonalProjectPage } from './../personal-project/personal-project';//importing pages that I made
+import { TeamProjectPage } from './../team-project/team-project';//importing pages that I made
+
 /**
  * Generated class for the MenuPage page.
  *
@@ -34,9 +39,13 @@ export class MenuPage {
  
   pages: PageInterface[] = [
     { title: 'CV', pageName: 'CvPage', tabComponent: 'CvPage', index: 0, icon: 'home' },
-    { title: 'Project', pageName: 'ProjectPage', tabComponent: 'ProjectPage', index: 1, icon: 'laptop' },
+    { title: 'Profile', pageName: 'ProfilePage', tabComponent: 'ProfilePage', index: 1, icon: 'hand' },
     { title: 'Activities', pageName: 'ActivitiesPage', tabComponent: 'ActivitiesPage', index: 2, icon: 'images' },
     { title: 'Contact', pageName: 'ContactPage', tabComponent: 'ContactPage', index: 3, icon: 'contacts' },
+    { title: 'TechnialSkills', pageName: 'TechnicalSkillsPage', tabComponent: 'TechnicalskillsPage', index: 4, icon: 'flower' },
+    { title: 'SoftSkills', pageName: 'SoftSkillsPage', tabComponent: 'SoftskillsPage', index: 5, icon: 'happy' },
+    { title: 'PersonalProject', pageName: 'PersonalProjectPage', tabComponent: 'PersonalprojectPage', index: 6, icon: 'contact' },
+    { title: 'TeamProject', pageName: 'TeamProjectPage', tabComponent: 'TeamprojectPage', index: 7, icon: 'chatboxes' },
     
   ];
   constructor(public navCtrl: NavController) { }
